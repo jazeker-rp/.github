@@ -14,8 +14,8 @@ The table names have the following format `<owner>_<feature>_<specification>`.
 #### \<owner\>
 The owner within the table name defines who owns and needs the data within the table and can therefor be one of the following things
 - sv (short for server)
-- ply (short for player)
-- char (short for character)
+- pl (short for player)
+- ch (short for character)
 
 #### \<feature\>
 The feature within the table name defines what feature the data is used for. For example your character has a phone so the table name becomes `char_phone` because it holds generic data for the phone of each character.
