@@ -23,5 +23,5 @@ The feature within the table name defines what feature the data is used for. For
 #### \<specification\>
 The specification within the table name defines a specific part of a feature the data is used for. For example your character can send messages on the phone so the table name becomes `char_phone_messages` because it holds all the messages send on the phone by a character to another character. **It's important to know that this feature is not required this is only there to specify multibly dataset for a certain feature!**
 
-### 1. Refrence Tables
+### 2. Refrence Tables
 The soul purpuse of refrence table is to join multible tables together that have no data in common, therefor a refrence table can only becreated for two owners in our case those refernce tables are `server_players` and `player_characters`.
