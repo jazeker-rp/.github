@@ -11,16 +11,16 @@ The database is most crucial aspects for every fivem server because here you'll 
 ### 1. Table Names
 The table names have the following format `<owner>_<feature>_<specification>`.
 
-#### <owner>
+#### \<owner\>
 The owner within the table name difines who owns and needs the data within the table and can therefor be one of the following things
 - sv (short for server)
 - ply (short for player)
 - char (short for character)
 
-#### <feature>
+#### \<feature\>
 The feature within the table name difines what feature the data is used for. For example your character has a phone so the table name becomes `char_phone` because it holds generic data for the phone of each character.
 
-#### <specification>
+#### \<specification\>
 The specification within the table name difines a specific part of a feature the data is used for. For example your character can send messages on the phone so the table name becomes `char_phone_messages` because it holds all the messages send on the phone by a character to another character. **It's important to know that this feature is not required this is only there to specify multibly dataset for a certain feature!**
 
 ### 1. Refrence Tables
