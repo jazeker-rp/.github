@@ -30,14 +30,7 @@ The soul purpuse of refrence table is to join multible tables together that have
 The resources are, next to a database, the things that give you're server that unique feel to it's mechanics and make people want to come back to it so they can play with there friends. Sinds by default the silk framework is made for roleplay but we are willing to support minigames in the future we need to set a president for the resources that we make to keep overview within the github org.
 
 ### 1. Naming Conventions
-The resource names are a crucial aspect of a resource and therefor have the following format `<framework>-[<namespace>-]<gamemode>-<feature>-<specification>`
-
-#### \<framework\>
-There are 3 frameworks combined here the QBCore, OverExtended, and Silk. Therefor we need to add the framework short name to keep track of the resource authors. The short names are listed below.
-- sta (Standalone, `sta-[<namespace | gamemode>-]<feature>-<specification>`)
-- slk (Silk, `slk-[<namespace | gamemode>-]<feature>-<specification>`)
-- ox (OverExtended, `ox-[<namespace | gamemode>-]<feature>-<specification>`)
-- qb (QBCore, `qb-[<namespace | gamemode>-]<feature>-<specification>`)
+The resource names are a crucial aspect of a resource and therefor have the following format `slk-[<namespace>-]<gamemode>-<feature>-<specification>`
 
 #### \[\<namespace\>\-]
 Specifies the RAGE namespace it has the most (any%) of interaction with
