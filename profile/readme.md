@@ -34,13 +34,14 @@ The resource names are a crucial aspect of a resource and therefor have the foll
 
 #### \<framework\>
 There are 3 frameworks combined here the QBCore, OverExtended, and Silk. Therefor we need to add the framework short name to keep track of the resource authors. The short names are listed below.
+- sta (Standalone, `sta-<gamemode>-<feature>-<specification>`)
 - slk (Silk, `slk-<gamemode>-<feature>-<specification>`)
 - ox (OverExtended, `ox-<gamemode>-<feature>-<specification>`)
 - qb (QBCore, `qb-<gamemode>-<feature>-<specification>`)
 
 #### \<gamemode\>
 Like mentioned befor we want to support multiple gamemodes so we need to add the gamemode to also keep track of this. For the case that a resource can be used for multiple gamemodes we add the any gamemode
-- any (Shared across gamemodes, `slk-any-<feature>-<specification>`)
+- any (Any Gamemode, `slk-any-<feature>-<specification>`)
 - rp (Roleplay, `slk-rp-<feature>-<specification>`)
 
 #### \<feature\>
