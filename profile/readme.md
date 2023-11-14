@@ -25,34 +25,3 @@ The specification within the table name defines a specific part of a feature the
 
 ### 2. Refrence Tables
 The soul purpuse of refrence table is to join multible tables together that have no data in common, therefor a refrence table can only becreated for two owners in our case those refernce tables are `server_players` and `player_characters`.
-
-## Resources
-The resources are, next to a database, the things that give you're server that unique feel to it's mechanics and make people want to come back to it so they can play with there friends. Sinds by default the silk framework is made for roleplay but we are willing to support minigames in the future we need to set a president for the resources that we make to keep overview within the github org.
-
-### 1. Naming Conventions
-The resource names are a crucial aspect of a resource and therefor have the following format `slk-[<namespace>-]<gamemode>-<feature>-<specification>`
-
-#### \[\<namespace\>\-]
-Specifies the RAGE namespace it has the most (any%) of interaction with
-- hud (`slk-hud-<feature>-<specification>`)
-- vehicles (`slk-vehicle-<feature>-<specification>`)
-
-#### [\<gamemode\>\-]
-Like mentioned befor we want to support multiple gamemodes so we need to add the gamemode to also keep track of this. For the case that a resource can be used for multiple gamemodes we add the any gamemode
-- any (Any Gamemode, `slk-any-<feature>-<specification>`)
-- rp (Roleplay, `slk-rp-<feature>-<specification>`)
-
-#### \<feature\>
-A resource is always created for a feature therefor we need to add the feature to the resource name.
-- `slk-rp-vehicles`
-- `slk-rp-voip`
-- `slk-rp-robberies`
-
-#### \<specification\>
-Sometimes a seperate resource is created for feature that allready exsist by will create a mess within the resource folder when a specification is added. Therefor we add a specification to a resource like shown below.
-- `slk-rp-vehicle-keys`
-- `slk-rp-vehicle-failure`
-- `slk-rp-voip-radio`
-- `slk-rp-voip-calls`
-- `slk-rp-robbery-store`
-- `slk-rp-robbery-bank`
